@@ -1,8 +1,8 @@
-# Webmotors Car Data Scraper
+# Webmotors Car Data Scraper 🚗
 
 ## Visão Geral
 
-Este projeto é um script Python que extrai dados de carros do site da Webmotors e envia os resultados para você via e-mail e Telegram. Ele foi projetado para automatizar o processo de coleta de informações sobre carros de seu interesse, como nome, preço e link do anúncio.
+Este projeto é um script Python que extrai dados de carros 🚘 do site da Webmotors e envia os resultados para você via e-mail 📧 e Telegram 💬. Ele foi projetado para automatizar o processo de coleta de informações sobre carros de seu interesse, como nome, preço e link do anúncio.
 
 ## Funcionalidades
 
@@ -46,7 +46,7 @@ Este projeto é um script Python que extrai dados de carros do site da Webmotors
 
     * Obtenha sua chave da API do Gemini em seu projeto do Google Cloud.
     * Obtenha o token do seu bot do Telegram e o ID do chat do Telegram.
-    * Configure suas credenciais de e-mail (endereço de e-mail e senha).
+    * Configure suas credenciais de e-mail (endereço de e-mail 📧 e senha 🔑).
     * Abra o arquivo `script.py` e substitua os valores de marcador com suas credenciais:
 
         ```python
@@ -69,7 +69,7 @@ Este projeto é um script Python que extrai dados de carros do site da Webmotors
 
 2.  **Agendamento:**
 
-    * O script está configurado para ser executado diariamente às 10:00. Para alterar o horário, modifique a linha no arquivo `script.py`:
+    * O script está configurado para ser executado diariamente às 10:00 🕙. Para alterar o horário, modifique a linha no arquivo `script.py`:
 
         ```python
         schedule.every().day.at("10:00").do(tarefa)
@@ -77,7 +77,7 @@ Este projeto é um script Python que extrai dados de carros do site da Webmotors
 
 3.  **Receba os dados:**
 
-    * Os dados extraídos serão enviados para o seu endereço de e-mail e para o seu chat do Telegram no horário agendado.
+    * Os dados extraídos serão enviados para o seu endereço de e-mail 📧 e para o seu chat do Telegram 💬 no horário agendado.
 
 ## Personalização
 
@@ -90,29 +90,29 @@ Este projeto é um script Python que extrai dados de carros do site da Webmotors
 * **Horário de agendamento:** Para alterar o horário em que o script é executado, modifique a string de tempo na chamada `schedule.every().day.at()`:
 
     ```python
-    schedule.every().day.at("14:30").do(tarefa)  # Executa às 14:30
+    schedule.every().day.at("14:30").do(tarefa)  # Executa às 14:30 🕞
     ```
 
-* **Formato do e-mail:** Para personalizar o formato do e-mail, modifique a variável `mensagem_email` na função `tarefa()`. Você pode usar HTML para formatar o e-mail.
-* **Mensagem do Telegram:** Para personalizar a mensagem do Telegram, modifique a variável `mensagem_telegram` na função `tarefa()`.
+* **Formato do e-mail:** Para personalizar o formato do e-mail 📧, modifique a variável `mensagem_email` na função `tarefa()`. Você pode usar HTML para formatar o e-mail.
+* **Mensagem do Telegram:** Para personalizar a mensagem do Telegram 💬, modifique a variável `mensagem_telegram` na função `tarefa()`.
 
 ## Tratamento de Erros
 
 O script inclui tratamento de erros para lidar com os seguintes casos:
 
-* Falha ao acessar o site da Webmotors
-* Falha ao extrair dados de um anúncio de carro
-* Falha ao enviar e-mail
-* Falha ao enviar mensagem do Telegram
+* Falha ao acessar o site da Webmotors 🌐
+* Falha ao extrair dados de um anúncio de carro 🚗
+* Falha ao enviar e-mail 📧
+* Falha ao enviar mensagem do Telegram 💬
 * Erros ao analisar a resposta da API do Gemini
 
 ## Notas
 
-* Certifique-se de que seu servidor de e-mail permita que o script envie e-mails. Para o Gmail, pode ser necessário ativar o "acesso a aplicativos menos seguros" ou usar uma senha de aplicativo.
-* A API do Gemini tem seus próprios termos de uso e preços. Consulte a documentação do Google Cloud para obter mais detalhes.
-* O site da Webmotors pode alterar sua estrutura HTML, o que pode quebrar o script. Se isso acontecer, você pode precisar ajustar os seletores CSS no script.
-* Use este script com responsabilidade e respeite os termos de serviço da Webmotors e do Telegram.
+* Certifique-se de que seu servidor de e-mail permita que o script envie e-mails. Para o Gmail, pode ser necessário ativar o "acesso a aplicativos menos seguros" ou usar uma senha de aplicativo 🔑.
+* A API do Gemini tem seus próprios termos de uso e preços 💰. Consulte a documentação do Google Cloud para obter mais detalhes.
+* O site da Webmotors pode alterar sua estrutura HTML, o que pode quebrar o script 🛠️. Se isso acontecer, você pode precisar ajustar os seletores CSS no script.
+* Use este script com responsabilidade e respeite os termos de serviço da Webmotors e do Telegram 🙏.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar problemas ou abrir pull requests para melhorar este projeto.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar problemas 🐞 ou abrir pull requests 🚀 para melhorar este projeto.
